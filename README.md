@@ -1,12 +1,5 @@
-# CICD-MLOPS
-This guide helps you set up and manage Continuous Integration (CI), Continuous Delivery (CD), and Continuous Training (CT) pipelines in an MLOps workflow using DVC (Data Version Control) and GitHub.
 
-Got it ✅
-Here’s a **help document / cheatsheet** for **CI/CD/CT pipeline in MLOps using DVC + GitHub**. I’ll keep it structured, with **concepts + commands + examples + explanation** so it’s easy to reference like a quick guide.
-
----
-
-# 🚀 CI/CD/CT Cheatsheet for MLOps with DVC & GitHub
+# CI/CD/CT Cheatsheet for MLOps with DVC & GitHub
 
 This guide helps you set up and manage Continuous Integration (CI), Continuous Delivery (CD), and Continuous Training (CT) pipelines in an MLOps workflow using **DVC (Data Version Control)** and **GitHub**.
 
