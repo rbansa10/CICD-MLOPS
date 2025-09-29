@@ -1,4 +1,5 @@
 
+#python3 -m pip3 install pandas scikit-learn pyyaml
 import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
