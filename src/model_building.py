@@ -342,7 +342,7 @@ def main():
         # ===== STAGE 1: CONFIGURATION LOADING =====
         # Load hyperparameters and configuration settings from YAML file
         # ['model_building'] extracts the specific section for this pipeline stage
-        params = load_params('./../params.yaml')['model_building']
+        params = load_params('params.yaml')['model_building']
         
         # ===== STAGE 2: TRAINING DATA LOADING =====
         # Load preprocessed TF-IDF feature data from feature engineering pipeline

@@ -2,7 +2,7 @@
 # Author: Rajat Bansal
 # Date: September 29, 2025
 # Version: 2.0 (GUI-enabled file selection)
-#python3 -m pip3 install pandas scikit-learn pyyaml
+#python3 -m pip install pandas scikit-learn pyyaml
 import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
@@ -91,7 +91,7 @@ def save_data(train_data: pd.DataFrame, test_data: pd.DataFrame, data_path: str)
 
 def main():
     try:
-        params = load_params(params_path='../params.yaml')
+        params = load_params(params_path='params.yaml')
         test_size = params['data_ingestion']['test_size']
         # test_size = 0.2
         data_path = 'https://raw.githubusercontent.com/rbansa10/Datasets/refs/heads/main/spam.csv'

@@ -245,7 +245,7 @@ def main():
     try:
         # Step 1: Load configuration parameters from YAML file
         # Parameters file contains hyperparameters and settings for the pipeline
-        params = load_params(params_path='./../params.yaml')
+        params = load_params(params_path='params.yaml')
         
         # Extract the max_features parameter for TF-IDF vectorization
         # This controls the vocabulary size and model complexity

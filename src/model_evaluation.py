@@ -407,7 +407,7 @@ def main():
     try:
         # ===== STAGE 1: CONFIGURATION LOADING =====
         # Load evaluation parameters and experiment configuration
-        params = load_params(params_path='./../params.yaml')
+        params = load_params(params_path='params.yaml')
         
         # ===== STAGE 2: MODEL LOADING =====
         # Load trained model from persistent storage for evaluation
