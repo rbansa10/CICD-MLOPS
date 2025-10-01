@@ -16,8 +16,8 @@ stages:
     # Parameters (currently commented): 
     # If enabled, this would allow you to pass hyperparameters or configs 
     # (like test size for train/test split) directly from params.yaml.
-    # params:
-    # - data_ingestion.test_size
+    params:
+    - data_ingestion.test_size
 
     # Outputs: The result of this stage. "data/raw" will be tracked by DVC.
     outs:
@@ -59,8 +59,8 @@ stages:
 
     # Parameters (currently commented): Could be used to control the number 
     # of features or specific transformations (e.g., max_features).
-    # params:
-    # - feature_engineering.max_features
+    params:
+    - feature_engineering.max_features
 
     # Outputs: Final processed dataset ready for training.
     outs:
@@ -81,9 +81,9 @@ stages:
     # Parameters (currently commented): If enabled, these would let you configure 
     # the model hyperparameters (e.g., number of estimators, random state seed) 
     # through params.yaml, making experiments reproducible.
-    # params:
-    # - model_building.n_estimators
-    # - model_building.random_state
+    params:
+    - model_building.n_estimators
+    - model_building.random_state
 
     # Outputs: The trained model artifact (pickled model file).
     outs:
