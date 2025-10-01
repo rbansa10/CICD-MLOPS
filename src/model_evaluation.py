@@ -432,10 +432,10 @@ def main():
         # Initialize DVC Live context for experiment tracking and versioning
         # save_dvc_exp=True enables automatic experiment versioning
         with Live(save_dvc_exp=True) as live:
-            # NOTE: There appears to be an error in the original code here
-            # The metrics are being computed using y_test vs y_test instead of y_pred
-            # This would result in perfect scores (1.0) which is incorrect
-            # The correct implementation should use the actual predictions:
+            #
+            # The metrics are being computed using y_test vs y_pred
+            # This would result in scores
+            # The  implementation use the actual predictions:
             
             # Get predictions for proper metric calculation
             y_pred = clf.predict(X_test)
